@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+html {
+    font-size: 20rem;
+    color: #eee;
+}
+body {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+header {
+    background-color: #30292F;
+}
+main { 
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+    height: 100%;
+    background-color: #34312D;
+}
+.target {
+    width: 284px;
+    height: 360px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #D9C5B2;
+    border: 1px solid orange;
+    border-radius: 10px;
+    color: #34312D;
+}
+p {
+    font-size: 20px;
+}
+button {
+    font-size: 20px;
+    background: orange;
+    padding: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.tabla{
+    grid-column: center;
+    width: 400px;
+    margin-top: 20px;
+    height: auto;
+}
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 5px;
+    background: #000 url("gradient.gif") bottom left repeat-x;
+    color: #000;
+}
+tr, th {
+    width: 25%;
+    text-align: center;
+    background: #fff;
+}
