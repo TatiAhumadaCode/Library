@@ -42,9 +42,7 @@ function insertRowInTable(myBook) {
 }
 
 function addBookToLibrary(myBook) {
-  let newBook = JSON.parse(localStorage.getItem("dataBook"));
-  newBook.push(myBook);
-  let myBookJSON = JSON.stringify(newBook);
+  let myBookJSON = JSON.stringify(myBook);
   localStorage.setItem("dataBook", myBookJSON)
 }
 
